@@ -1,3 +1,7 @@
+CREATE DATABASE mydb;
+
+USE mydb;
+
 CREATE TABLE admin(
     id int primary key auto_increment,
     email varchar(120) unique,
@@ -9,5 +13,4 @@ CREATE TABLE tarefas(
     nome varchar(250),*
     FOREIGN KEY (id_tarefa) REFERENCES admin(id)
 );
-insert into admin(email,senha) values("teste@gmail.com","0123");
 

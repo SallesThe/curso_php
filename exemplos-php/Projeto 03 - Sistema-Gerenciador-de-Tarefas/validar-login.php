@@ -5,4 +5,3 @@
     }
     $id = $_SESSION['id_admin'];
 ?>
-<!-- ok -->

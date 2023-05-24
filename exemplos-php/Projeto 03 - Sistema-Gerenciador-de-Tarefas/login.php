@@ -16,6 +16,4 @@ if(isset($_POST['email'])){
         $msg = "Usuário ou Senha incorreto.";
     }
 }
-
 ?>
-<!-- ok -->

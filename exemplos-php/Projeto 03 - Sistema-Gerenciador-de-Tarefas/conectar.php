@@ -12,7 +12,7 @@
 
         $servidor = "localhost";
         $usuario = $id."root";
-        $banco = $id."gerenciador_tarefa";
+        $banco = $id."mydb";
 
         $con = new mysqli($servidor, $usuario, $senha, $banco);
 
